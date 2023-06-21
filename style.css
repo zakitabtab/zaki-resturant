@@ -1,0 +1,48 @@
+/* main title */ 
+
+.maintitle{
+    background-color: #B9BAB8;
+    height: 80vh;
+    
+}
+.maintitle .container .row a{
+    padding: 10px 8px;
+    color: aliceblue;
+    border-radius: 50px;
+    background-color: red;
+}
+.maintitle .container .row a:hover{
+    background-color: #B9BAB8;
+    border: solid 1px red;
+    color: black;
+}
+
+/* menu start */
+.menu{
+    background-color: #FF0022;
+    height: 80vh;
+}
+
+/* about */
+.about{
+    background-color: #B9BAB8;
+}
+/* team */ 
+.team{
+    background-color: #FF0022;
+}
+
+
+/* media queries */ 
+@media only screen and (max-width: 1000px) {
+    .maintitle{
+       
+        height: 150vh;
+        
+    }
+    .menu{
+        height: 180vh;
+      }
+  }
+ 
+  
